@@ -11,6 +11,7 @@ import com.integrate.jetpackktproject.databinding.ActivityMainBinding
  */
 class MainActivity : AppCompatActivity() {
 
+    private const val TAG = "MainActivity"
 
     private var mainBinding:ActivityMainBinding ? = null
     private var viewModel:MainActivityViewModel ?= null
