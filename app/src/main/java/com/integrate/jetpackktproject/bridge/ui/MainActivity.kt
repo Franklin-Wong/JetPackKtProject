@@ -9,7 +9,7 @@ import com.integrate.jetpackktproject.databinding.ActivityMainBinding
 /**
  * 管理者
  */
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     private const val TAG = "MainActivity"
 
@@ -19,5 +19,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        android.util.Log.i(TAG, "onCreate: ")
     }
+
 }
